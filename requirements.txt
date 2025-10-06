@@ -1,0 +1,26 @@
+# Requirements for the CNN project and Streamlit demo
+
+# Core app
+streamlit>=1.10
+numpy>=1.23
+pillow>=9.0
+matplotlib>=3.5
+seaborn>=0.12
+scikit-learn>=1.1
+
+# TensorFlow options - choose the one appropriate for your environment
+# CPU-only (recommended for portability)
+tensorflow-cpu>=2.12,<3.0
+
+# GPU-enabled (only if you have CUDA/cuDNN configured)
+# tensorflow>=2.12,<3.0
+
+# macOS (Apple Silicon) options
+# tensorflow-macos
+# tensorflow-metal
+
+# Optional - if you use h5 models
+h5py>=3.1
+
+# Pin pip to newest resolver behavior
+pip>=23.0
